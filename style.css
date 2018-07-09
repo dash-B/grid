@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+html,body{margin:0;padding:0;overflow:hidden;background:#3c3c3e;}
+.cell{float:left;width:31.33vw;height:31.33vh;resize:none;background:rgba(26,26,28,0.99);
+      color:rgba(204,102,102,0.99);border:0;padding:0;margin-left:1vw;margin-right:1vw;
+      margin-top:1vh;margin-bottom:1vh;font-family:'Roboto Condensed';font-size:300%;
+      text-align:center;line-height:31.33vh;}
+.cell:focus{outline-color:#c66;}
+.cell::-moz-selection{background:rgba(204,102,102,0.99);color:rgba(26,26,28,0.99);}
+.cell::selection{background:rgba(204,102,102,0.99);color:rgba(26,26,28,0.99);}
